@@ -48,8 +48,6 @@
 
             $found = false;
 
-            krsort($urls);
-
             foreach ($urls as $regex => $class) {
                 $regex = str_replace('/', '\/', $regex);
                 $regex = '^' . $regex . '\/?$';
