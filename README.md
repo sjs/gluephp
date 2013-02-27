@@ -2,8 +2,11 @@ Glue
 ====
 
 Author: Joe Topjian, joe@topjian.net
+Contributor: Steve Strutt, steve@sjstrutt.com
 
 Glue is a simple PHP class that maps URLs to classes. The concepts are similar to web.py for Python.
+
+Steve;s edit removes krsort, which allows the developer to specify the order in which URL patterns are matched.  THis allows the developer to add a "catchall" at the end, to handle 404 errors.
 
 Information on how to use Glue can be found at http://gluephp.com.
 
